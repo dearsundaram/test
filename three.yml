@@ -4,8 +4,8 @@
     connection: local 
     tasks:
 
-    - name: "just execute a ls -lrt command"
-      shell: "ls -lrt"
+    - name: "just execute a ls -lrtg command"
+      shell: "ls -lrtg"
       register: "output"
 
     - debug: var=output.stdout_lines
